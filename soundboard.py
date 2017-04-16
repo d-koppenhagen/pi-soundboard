@@ -50,6 +50,6 @@ while True:
             try:
                  print('Button pressed: file: ' + str(index) +' PIN: ' + str(num))
                  playSound(soundPath + '/' + str(index) + '.mp3')
-             except:
+            except:
                  print('Could not play sound file: ' + str(index) + '.mp3')
         sleep(0.3)
