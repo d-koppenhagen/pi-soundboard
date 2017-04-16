@@ -9,4 +9,4 @@ I runs on a raspberry pi with multimediacenter Kodi/OSMC. On pressing a button i
 * `soundboard.py` - The Python source code for controlling the push buttons and playing the sounds
 
 ## Get started
-* run `python3 soundboard.py` from console
+* run `sudo python3 soundboard.py` from console
