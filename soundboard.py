@@ -48,8 +48,8 @@ while True:
         
         if (GPIO.input(num) == False):
             try:
-                 print('Button pressed: file: ' + str(index) +' PIN: ' + str(num))
-                 playSound(soundPath + '/' + str(index) + '.mp3')
+                playSound(soundPath + '/' + str(index) + '.mp3')
             except:
-                 print('Could not play sound file: ' + str(index) + '.mp3')
-        sleep(0.3)
+                print('Could not play sound file: ' + str(index) + '.mp3')
+    
+    sleep(0.1)
